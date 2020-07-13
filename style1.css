@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 250px;
+    color: #fff;
+}
+
+p {
+    font-size: 17px;
+    color: #fff;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.glyphicon-envelope {
+    font-size: 50px;
+    color: #fff;
+    float: right;
+    margin-top: 20px;
+}
+
+.col-md-5 {
+    margin-top: 50px;
+    box-shadow: -1px 1px 60px 10px #000;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.label {
+    font-weight: normal;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.form-control {
+    background: transparent;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 40px;
+    color: #fff;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+input[type="checkbox"] {
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+small {
+    font-size: 18px;
+    color: #fff;
+}
+
+input[type="radio"] {
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+option {
+    color: gray;
+}
+
+.btn-info {
+    margin-top: 20px;
+    font-size: 18px;
+    width: 140px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    margin-top: 20px;
+    font-size: 18px;
+    width: 140px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+    .btn-danger {
+        margin-top: 20px;
+        font-size: 18px;
+        width: 140px;
+        margin-bottom: 20px;
+        margin-left: 82px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-top: 25px;
+    }
+    .btn-danger {
+        margin-top: 20px;
+        font-size: 18px;
+        width: 140px;
+        margin-bottom: 20px;
+        margin-left: 82px;
+    }
+}
